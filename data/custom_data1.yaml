@@ -1,0 +1,12 @@
+
+train: ../shipbotv3/train/images # train images (relative to 'path') 128 images
+val: ../shipbotv3/valid/images  # val images (relative to 'path') 128 images
+
+
+# Classes
+nc: 38  # number of classes
+
+
+names: ['0', '1', '10', '11', '15', '16', '2', '3', '4', '5', '6', '7', '8', '9', 'valve_100', 'valve_110', 'valve_120', 'valve_130', 'valve_140', 'valve_150', 'valve_160', 'valve_170', 'valve_180', 'valve_190', 'valve_200', 'valve_210', 'valve_220', 'valve_230', 'valve_240', 'valve_250', 'valve_260', 'valve_270', 'valve_280', 'valve_290', 'valve_350', 'valve_70', 'valve_80', 'valve_90']  # class names
+
+
